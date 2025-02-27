@@ -5,9 +5,9 @@ from datetime import datetime
 FARE_RATES={"Adult":2105,"Child":1410,"Senior":1025,"Student":1750}
 
 STATIONS={
-    "Central":["Centrala", "Rede", "Yaen" ,"Ninia","Tallan","Jaund","Frestin","Lomil"],
-    "Midtown":["Rilya","Quthiel","Agralle","Stonyam","Obelyn","Riladia","Wicyt"],
-    "Downtown":["Zord","Keivia","Perinad","Erean","Brunad", "Elyot", "Adohad" ,"Holmer" , "Marend", "Ryall" ,"Ederif", "Pryn","Ruril" , "Vertwall"]
+    "Central": ["Centrala", "Rede", "Yaen" ,"Ninia","Tallan","Jaund","Frestin","Lomil"],
+    "Midtown": ["Rilya","Quthiel","Agralle","Stonyam","Obelyn","Riladia","Wicyt"],
+    "Downtown": ["Zord","Keivia","Perinad","Erean","Brunad", "Elyot", "Adohad" ,"Holmer" , "Marend", "Ryall" ,"Ederif", "Pryn","Ruril" , "Vertwall"]
 }
 
 def calculate_fare(zones,travelers):
